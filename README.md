@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+## SmartMeet 🎓
 
-## Project info
+SmartMeet is an online meeting platform designed specifically for schools and colleges, similar to Google Meet or Zoom but with extra features for student attendance management.
 
-**URL**: https://lovable.dev/projects/d52ea761-c8c7-4012-8c5d-f246425b8e4f
+With SmartMeet, teachers can focus on teaching while the system automatically tracks student attendance based on participation time.
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+📅 Create Meetings – Teachers can create meetings with a set duration.
 
-**Use Lovable**
+⏳ Attendance Timer – Host sets a minimum presence time (e.g., 15 minutes).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d52ea761-c8c7-4012-8c5d-f246425b8e4f) and start prompting.
+✅ Auto Attendance – Students are automatically marked present if they stay for the required duration.
 
-Changes made via Lovable will be committed automatically to this repo.
+📊 Attendance Reports – No need for manual tracking; attendance is logged automatically.
 
-**Use your preferred IDE**
+👩‍🏫 Scalable – Supports 300–400+ students in a single class.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🔒 Secure & Reliable – Safe login and meeting management system.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🖼️ Use Case
 
-Follow these steps:
+A teacher starts a 1-hour class and sets the attendance timer to 15 minutes.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Students must stay in the meeting for at least 15 minutes.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+If a student leaves early, their attendance is not marked.
 
-# Step 3: Install the necessary dependencies.
-npm i
+At the end of the session, the teacher gets a ready attendance record automatically.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🛠️ Tech Stack
 
-**Edit a file directly in GitHub**
+Frontend: React.js / Next.js / TailwindCSS
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Backend: Node.js / Express
 
-**Use GitHub Codespaces**
+Database: MongoDB / PostgreSQL
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Real-time Communication: WebRTC / Socket.io
 
-## What technologies are used for this project?
+Authentication: JWT / OAuth
 
-This project is built with:
+## ⚙️ Installation
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Clone the repository:
 
-## How can I deploy this project?
+git clone https://github.com/your-username/smartmeet.git
+cd smartmeet
 
-Simply open [Lovable](https://lovable.dev/projects/d52ea761-c8c7-4012-8c5d-f246425b8e4f) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+Install dependencies:
 
-Yes, you can!
+npm install
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Run the project:
+
+npm start
+
+## 📌 Roadmap
+
+ Live video & chat features
+
+ Integration with LMS (Google Classroom, Moodle, etc.)
+
+ Downloadable attendance reports (CSV, Excel)
+
+ Mobile app (iOS & Android)
+
+## 🤝 Contributing
+
+Contributions are always welcome!
+
+Fork the project
+
+Create your feature branch (git checkout -b feature-name)
+
+Commit your changes (git commit -m 'Add new feature')
+
+Push to the branch (git push origin feature-name)
+
+Open a Pull Request
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+Built with ❤️ by Dev Krishan
+
+## live demo --- https://test-eta-eight-85.vercel.app/
+
