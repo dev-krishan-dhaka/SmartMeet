@@ -42,9 +42,9 @@ Authentication: JWT / OAuth
 
 ## ⚙️ Installation
 
-Clone the repository:
+Clone the repository: https://github.com/dev-krishan-dhaka/SmartMeet/
 
-git clone https://github.com/your-username/smartmeet.git
+git clone 
 cd smartmeet
 
 
